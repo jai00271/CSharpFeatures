@@ -1,0 +1,11 @@
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\bin\Debug\netcoreapp2.2\CSharp5.deps.json
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\bin\Debug\netcoreapp2.2\CSharp5.runtimeconfig.json
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\bin\Debug\netcoreapp2.2\CSharp5.runtimeconfig.dev.json
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\bin\Debug\netcoreapp2.2\CSharp5.dll
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\bin\Debug\netcoreapp2.2\CSharp5.pdb
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\obj\Debug\netcoreapp2.2\CSharp5.csprojAssemblyReference.cache
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\obj\Debug\netcoreapp2.2\CSharp5.csproj.CoreCompileInputs.cache
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\obj\Debug\netcoreapp2.2\CSharp5.AssemblyInfoInputs.cache
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\obj\Debug\netcoreapp2.2\CSharp5.AssemblyInfo.cs
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\obj\Debug\netcoreapp2.2\CSharp5.dll
+C:\Users\mritunjai_pratapsing\source\repos\Learning\CSharpFeatures\CSharpFeatures\CSharp5\obj\Debug\netcoreapp2.2\CSharp5.pdb
