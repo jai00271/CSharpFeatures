@@ -101,12 +101,9 @@ namespace CSharp6
             {
                 WriteLine(3 / denominator);
             }
-            catch (DivideByZeroException exception)
+            catch (DivideByZeroException exception) when (denominator == 2)
             {
-                if (denominator == 2)
-                {
-                    WriteLine("If catch executed");
-                }
+                WriteLine("If catch executed");
             }
             catch (Exception exception)
             {
