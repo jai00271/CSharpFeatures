@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using static System.Console;
 
 namespace CSharp7
@@ -21,6 +22,14 @@ namespace CSharp7
             WriteLine("-------------------------------------------------------------------");
 
             Feature5_RefLocalsAndReturns();
+            WriteLine("-------------------------------------------------------------------");
+
+            Feature6_ThrowExpressions();
+            WriteLine("-------------------------------------------------------------------");
+
+            Feature7_GeneralizedAsyncReturnTypes();
+            WriteLine("-------------------------------------------------------------------");
+
             WriteLine("-------------------------------------------------------------------");
 
             ReadLine();
@@ -156,6 +165,43 @@ namespace CSharp7
         }
 
         #endregion Feature5_RefLocalsAndReturns
+
+        #region Feature6_ThrowExpressions
+
+        public static void Feature6_ThrowExpressions()
+        {
+            var denominator = 1;
+            WriteLine(Divide(denominator));
+
+            double Divide(int denom)
+            {
+                var numerator = 3;
+                return denom != 0 ? numerator / denom : throw new DivideByZeroException();
+            }
+        }
+
+        #endregion Feature6_ThrowExpressions
+
+        #region Feature7_GeneralizedAsyncReturnTypes
+
+        public static void Feature7_GeneralizedAsyncReturnTypes()
+        {
+            NoReturn();
+            WriteLine("Returned value is: " + WithReturn().Result);
+
+            async ValueTask NoReturn()
+            {
+                await Task.Delay(1);
+            }
+
+            async ValueTask<int> WithReturn()
+            {
+                await Task.Delay(1);
+                return 1;
+            }
+        }
+
+        #endregion Feature7_GeneralizedAsyncReturnTypes
     }
 
     public class Employee
